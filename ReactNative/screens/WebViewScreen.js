@@ -52,6 +52,8 @@ const WebViewScreen = () => {
           onMessage={handleMessage}
           javaScriptEnabled={true}
           domStorageEnabled={true}
+          setBuiltInZoomControls={false}
+          setDisplayZoomControls={false}
         />
       )}
     </View>
